@@ -1,0 +1,46 @@
+.item {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon {
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.contact-info p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info p+p {
+    margin-top: 5px;
+}
+
+button {
+    background-color: #e74c3c;
+    color: rgb(150, 150, 150);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
